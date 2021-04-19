@@ -24,7 +24,6 @@ namespace _1_PR_LAB
             Amount = 0;
             Cost = 0;
         }
-        
         public void ShowName()
         {
             Console.WriteLine("The current product name is {0}", Name);
@@ -36,6 +35,40 @@ namespace _1_PR_LAB
         public void ShowCost()
         {
             Console.WriteLine("The current product cost = {0}", Cost);
+        }
+        public string NAME
+        {
+            get
+            {
+                return Name;
+            }
+            set
+            {
+                Name = value;
+            }
+        }
+        public int AMOUNT
+        {
+            get
+            {
+                return Amount;
+            }
+            set
+            {
+                Amount = value;
+            }
+        }
+        public float COST
+        {
+            get
+            {
+                return Cost;
+            }
+            set
+            {
+                Cost = value;
+            }
+
         }
     }
 }
